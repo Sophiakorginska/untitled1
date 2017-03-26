@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>enjoyly!</title>
+    <link rel="stylesheet" type="text/css" href="firstMainPage.css">
+
+</head>
+<body>
+<header></header>
+<main>
+    <div class="mainDiv">
+        <div class="left">
+            <img src="images/enjoyly11.png" width="400" height="400">
+        </div>
+        <div class="right">
+            <form>
+                <input type="text" name="first_name" placeholder="First name">
+                <br>
+                <br>
+                <input type="text" name="last_name" placeholder="Last name">
+                <br>
+                <br>
+                <label for="date_of_birth">Birthday</label>
+                <input type="date" name="date_of_birth" id="date_of_birth">
+                <br>
+                <br>
+                <label for="sex1">Sex</label>
+                <input type="radio" checked name="sex" id="sex1"/>
+                <label for="sex1"> Male </label>
+                <input type="radio" name="sex" id="sex2"/>
+                <label for="sex2">Female</label>
+                <br>
+                <br>
+                <select required name="country">
+                    <option value="" disabled selected hidden>Country</option>
+                    <option>Ukraine</option>
+                    <option>Poland</option>
+                </select>
+                <br>
+                <br>
+                <select required name="country">
+                    <option value="" disabled selected hidden>City</option>
+                    <option>Lviv</option>
+                    <option>Kyiv</option>
+                </select>
+                <br>
+                <br>
+                <input type="tel" name="phone_number" placeholder="Phone number">
+                <br>
+                <br>
+                <input type="text" maxlength="300" name="about_yourself" placeholder="About yourself">
+                <p><input type="submit" value="Send"></p>
+
+        </div>
+    </div>
+
+
+</main>
+<footer></footer>
+</body>
+</html>

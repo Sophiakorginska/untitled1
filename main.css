@@ -1,0 +1,67 @@
+body{
+    font-family: "Comic Sans MS";
+}
+ul li{
+    list-style-type: none;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+.navigation{
+    border: solid black ;
+    min-height: 64px;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 10px 20px 12px 40px;
+
+}
+button {
+    width: 160px;
+    height: 60px;
+    display: block;
+    font-size: 30px;
+    margin: auto;
+    border: black 3px solid;
+    box-shadow: 3px 3px;
+    background: white;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgba(162, 169, 168, 0.34);
+}
+.leftpart{
+    float: left;
+display: inline-block;
+}
+.rightpart{
+    float: right;
+    display: inline-block;
+
+}
